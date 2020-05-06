@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tremolo-service" />
+        <module name="tremnolo-pojo" />
+        <module name="tremolo-common" />
+        <module name="tremolo-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-generatorConfig" target="1.8" />
+      <module name="tremnolo-pojo" target="1.8" />
+      <module name="tremolo-api" target="1.8" />
+      <module name="tremolo-common" target="1.8" />
+      <module name="tremolo-service" target="1.8" />
+      <module name="TremoloBack" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="TremoloBack" options="-parameters" />
+      <module name="mybatis-generatorConfig" options="-parameters" />
+      <module name="tremnolo-pojo" options="" />
+      <module name="tremolo-api" options="" />
+      <module name="tremolo-common" options="" />
+      <module name="tremolo-service" options="" />
+    </option>
+  </component>
+</project>
